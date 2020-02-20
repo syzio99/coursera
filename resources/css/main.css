@@ -1,0 +1,57 @@
+/*============================================================*/
+/*CONTENTS*/
+/*============================================================*/
+.content-box{
+	padding:80px 0px 80px 0;
+}
+/*============================================================*/
+/*feedback cover */
+/*============================================================*/
+#cover{
+	height:100vh;
+	background-image: url(../images/bg/wall.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment:fixed;
+	overflow: auto;
+}
+/*============================================================*/
+/*left part or col-1 */
+/*============================================================*/
+#left h1{
+	font-size: 60px;
+	color:white;
+	margin:50px 30px 20px 0;
+}
+
+#left p{
+	font-size: 20px;
+	color:white;
+	margin:50px 30px 20px 0;
+}
+
+/*============================================================*/
+/*right part or col-2 */
+/*============================================================*/
+#right{
+    color:white;
+}
+
+form .form-control{
+	background-color: transparent;
+	color:white;
+	font-size: 18px;
+	padding:0px 16px;
+	margin-bottom: 10px;
+	border-width: 1.5px;
+	border-radius: 2;
+	border-color: white;
+}
+
+.form-control::placeholder { color: white;} /* Chrome, Firefox, Opera*/
+:-ms-input-placeholder.form-control { color: white; }  /* Internet Explorer*/
+.form-control::-ms-input-placeholder { color: white; }  /* Microsoft Edge*/
+
+.right-text{
+    color:white;
+}

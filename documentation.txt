@@ -1,0 +1,13 @@
+==================================================================     
+Technology used: 
+    -> html-5
+    -> css-3
+    -> JavaScript
+    -> bootstrap-4
+==================================================================    
+Files Locations:
+    -> HTML Files: index.html (main html file), dummyTC.html(secondary html file)
+    -> CSS Files : resources/css/main.css
+    -> JavaScript Files : resources/js/main.js
+    -> Background Images : resources/images/bg/wall.jpg
+    -> Page icon : resources/images/icons/icon.png

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- page titel -->
+    <title>Feedback</title>
+
+    <!-- page icon -->
+    <link rel="icon" href="resources/images/icons/icon.png">
+    
+    <!-- external css -->
+    <link rel="stylesheet" href="resources/css/main.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <section id="feedback">
+        <div id="cover" class="animated fadeIn">
+            <div class="content-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <div id="left">
+                                <h1>Feedback Form</h1>
+                                <p>We would love to hear your thoughts, concerns or problems with anything so we can improve!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div id="right class="form-control" ">
+                                <form name="forms">
+                                    <div>
+                                        <input id="name" type="text"  class="form-control" placeholder="Username">
+                                    </div>
+                                    <div>
+                                        <input id="fname" type="text"  class="form-control" placeholder="First Name">
+                                    </div>
+                                    <div>
+                                        <input id="lname" type="text"  class="form-control" placeholder="Last Name">
+                                    </div>
+                                    <div>
+                                        <input id="email" type="email"  class="form-control" placeholder="Email">
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <div>
+                                            <input id="course" type="text"  class="form-control" placeholder="Course Name">
+                                        </div>
+        
+                                        <div class="right-text">
+                                            <p>How would you describe the course</p>
+                                            <div>
+                                                <input type="radio" name="rate" value="excellent" required>
+                                                <Label>Excellent</Label>
+                                            </div>
+                                            <div>
+                                                <input type="radio" name="rate" value="goodd" required>
+                                                <Label>Good</Label>
+                                            </div>
+                                            <div>
+                                                <input type="radio" name="rate" value="average" required>
+                                                <Label>Average</Label>
+                                            </div>
+                                            <div>
+                                                <input type="radio" name="rate" value="poor" required>
+                                                <Label>Poor</Label>
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                    <div >
+                                        <textarea rows="4" cols="30" placeholder="Comments" class="form-control"></textarea>
+                                    </div>
+                                    <div class="right-text">
+                                        <input type="checkbox" name="tc" required>
+                                        <label>I agree to the <a href="dummyTC.html">Terms and Conditions</a></label>
+                                    </div>
+                                    <button onclick="validate()" type="button submit" class="btn btn-primary">Submit</button>
+                                    <button type="button reset" class="btn btn-outline-primary">Reset</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+       
+
+    </section>
+
+    <!-- external JavaScript -->
+    <script src="resources/js/main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
